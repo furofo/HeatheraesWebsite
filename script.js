@@ -12,7 +12,15 @@ function myFunction() {
   }
 
  
-
+  addActive = function(el) {
+  
+    let aElementsToRemove = document.getElementsByTagName('a');
+  
+    for (let i = 0; i < aElementsToRemove.length; i++) {
+      aElementsToRemove[i].classList.remove("active");
+    }
+    el.classList.add('active');
+  }
   window.onload = function() {
     //set height of mobile restaruant logo to div containing fa fa bars
     let mobileLogoPic = document.getElementsByClassName("mobile-logo");
