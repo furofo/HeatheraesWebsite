@@ -24,12 +24,21 @@ function myFunction() {
   window.onload = function() {
     //set height of mobile restaruant logo to div containing fa fa bars
     let mobileLogoPic = document.getElementsByClassName("mobile-logo");
+    console.log(mobileLogoPic.clientHeight);
     let fafaBars = document.getElementsByClassName("icon");
+    let aLink = document.getElementsByTagName('a');
     console.log(mobileLogoPic[0]);
     console.log(fafaBars[0]);
     console.log(fafaBars[0].clientHeight);
     // leave some room for some padding simple math simple dazoooo
-    mobileLogoPic[0].style.height = fafaBars[0].clientHeight - 20 + "px";
+    if(mobileLogoPic.clientHeight != undefined){
+      mobileLogoPic[0].style.height = fafaBars[0].clientHeight - 20 + "px";
+    }
+
+    else {
+      mobileLogoPic[0].style.height = aLink[0].clientHeight - 20 + "px";
+    }
+    
 
     //see if in landscape mode
     if (window.matchMedia("(orientation: landscape)").matches) {
