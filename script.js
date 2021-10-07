@@ -24,7 +24,8 @@ function myFunction() {
   window.onload = function() {
     //set height of mobile restaruant logo to div containing fa fa bars
     let mobileLogoPic = document.getElementsByClassName("mobile-logo");
-    console.log(mobileLogoPic.clientHeight);
+    console.log(mobileLogoPic[0])
+    console.log(mobileLogoPic[0].clientHeight);
     //for mobile potrait
     let fafaBars = document.getElementsByClassName("icon");
     // for mobile landscape
@@ -33,7 +34,8 @@ function myFunction() {
     console.log(fafaBars[0]);
     console.log(fafaBars[0].clientHeight);
     // leave some room for some padding simple math simple dazoooo
-    if(mobileLogoPic.clientHeight != undefined){
+    if(mobileLogoPic[0].clientHeight != undefined){
+      console.log("image was resized");
       mobileLogoPic[0].style.height = fafaBars[0].clientHeight - 20 + "px";
     }
 
