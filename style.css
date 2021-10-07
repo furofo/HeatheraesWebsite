@@ -153,6 +153,9 @@ abbr,acronym { border:0;
     margin: 20px 0px 20px 0px;
 
   }
+  .mobile-logo-wrapper {
+    display: none;
+  }
 
 
    
