@@ -117,32 +117,69 @@ abbr,acronym { border:0;
     display: none;
   }
 
-  
-@media (orientation: landscape) {
-  #phone {
-    display: block;
+ 
+  @media (orientation: landscape) {
+    .desktop-top-logo-color-wrapper {
+      display: none;
+    }
+    #phone {
+      display: block;
+      float: left;
+    }
+    .topnav a:not(:first-child) {
+      display: block;
+    
+    }
+    
+    .topnav a.icon {
+      display: none;
+    }
+
+    .mobile-logo-wrapper{
+      width: 30%;
+      height: 100%;
+      float: left;
+    }
   }
-  .mobile-logo-wrapper{
-    width: 30%;
-    height: 100%;
-    float: left;
+
+  @media screen and (min-width: 480px) {
+    .topnav a {
+      float: left;
+      display: none;
+      text-align: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 20px 16px;
+      text-decoration: none;
+      font-size: 10px;
   }
-}
+  }
+
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (min-width: 600px) {
-   
+@media screen and (min-width: 900px) {
+  .topnav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(126,188,187);
+    
+}
     .topnav a:not(:first-child) {display: block;}
     /* Hide the link that should open and close the topnav on small screens */
    .topnav a.icon {
     display: none;
   }
 
+   
   .topnav a {
-    float: left;
+    font-size: 17px;
     display: block;
+    width: 20%;
  
   }
+  
   .desktop-top-logo-color-wrapper {
     display: flex;
     align-items: center;
@@ -150,15 +187,17 @@ abbr,acronym { border:0;
   }
   .desktop-top-logo-color-wrapper img {
     width: 25%;
-    margin: 20px 0px 20px 0px;
+    margin: 30px 0px 30px 0px;
 
   }
   .mobile-logo-wrapper {
     display: none;
   }
 
-
+ 
    
 }
+
+ 
   
   
