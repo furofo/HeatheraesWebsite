@@ -25,7 +25,9 @@ function myFunction() {
     //set height of mobile restaruant logo to div containing fa fa bars
     let mobileLogoPic = document.getElementsByClassName("mobile-logo");
     console.log(mobileLogoPic.clientHeight);
+    //for mobile potrait
     let fafaBars = document.getElementsByClassName("icon");
+    // for mobile landscape
     let aLink = document.getElementsByTagName('a');
     console.log(mobileLogoPic[0]);
     console.log(fafaBars[0]);

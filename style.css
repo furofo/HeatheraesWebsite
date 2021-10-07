@@ -112,6 +112,11 @@ abbr,acronym { border:0;
   #phone {
     display: none;
   }
+
+  .desktop-top-logo-color-wrapper {
+    display: none;
+  }
+
   
 @media (orientation: landscape) {
   #phone {
@@ -138,7 +143,16 @@ abbr,acronym { border:0;
     display: block;
  
   }
-  
+  .desktop-top-logo-color-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .desktop-top-logo-color-wrapper img {
+    width: 25%;
+    margin: 20px 0px 20px 0px;
+
+  }
 
 
    
