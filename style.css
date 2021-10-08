@@ -139,18 +139,26 @@ abbr,acronym { border:0;
     }
     .topnav a:not(:first-child) {
       display: block;
-    
-    }
+      width: 10%;
+      height: 1.2em;
+  }
     
     .topnav a.icon {
       display: none;
     }
+    .topnav a:not(.icon) {
+      padding: 1em 1% 1em 1%;
+  }
 
-    .mobile-logo-wrapper{
+    .mobile-logo-wrapper {
+      height: 1.2em;
+      display: flex;
       width: 30%;
-      height: 100%;
       float: left;
-    }
+      align-items: center;
+      justify-content: center;
+      padding: 1em 1% 1em 1%;
+  }
   }
 
  
