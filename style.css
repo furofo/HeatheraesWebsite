@@ -74,6 +74,11 @@ abbr,acronym { border:0;
     /* font-size: 20px; */
 }
 
+.topnav a:not(.icon) {
+  padding: 1em 2em 1em 2em;
+  
+}
+
   .topnav.responsive {position: relative;}
 
   .topnav.responsive a {
