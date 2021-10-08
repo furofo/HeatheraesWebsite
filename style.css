@@ -44,7 +44,7 @@ abbr,acronym { border:0;
 /* Add a black background color to the top navigation */
 /* Add a black background color to the top navigation */
 .topnav {
-  font-size: 1.3em;
+  font-size: 1.1em;
   position: relative;
   background-color: rgb(126,188,187);
   overflow: hidden;
@@ -174,7 +174,11 @@ abbr,acronym { border:0;
     background-color: rgb(126,188,187);
     
 }
-    .topnav a:not(:first-child) {display: block;}
+    .topnav a:not(:first-child) {
+      display: block;
+      width: 20%;
+    
+    }
     /* Hide the link that should open and close the topnav on small screens */
    .topnav a.icon {
     display: none;
