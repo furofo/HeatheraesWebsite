@@ -201,6 +201,9 @@ abbr,acronym { border:0;
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (min-width: 900px) {
+  .contact-footer {
+    display: none;
+  }
   .topnav {
     display: flex;
     width: 100%;
