@@ -44,8 +44,10 @@ abbr,acronym { border:0;
 /* Add a black background color to the top navigation */
 /* Add a black background color to the top navigation */
 .topnav {
+  position: fixed;
+  width: 100%;
   font-size: 1.1em;
-  position: relative;
+
   background-color: rgb(126,188,187);
   overflow: hidden;
 }
