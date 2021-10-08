@@ -1,5 +1,5 @@
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
+function toggleMobileMenu() {
     console.log("function clicked");
     let x = document.getElementById("myTopnav");
     console.log(x);
@@ -20,6 +20,10 @@ function myFunction() {
       aElementsToRemove[i].classList.remove("active");
     }
     el.classList.add('active');
+    if(document.getElementsByClassName('.icon')) {
+      console.log("muahha hthis worekd");
+      toggleMobileMenu();
+    }
   }
   window.onload = function() {
     /*
