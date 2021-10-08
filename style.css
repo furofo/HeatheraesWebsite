@@ -43,15 +43,13 @@ abbr,acronym { border:0;
 /* mobile styling */
 /* Add a black background color to the top navigation */
 /* Add a black background color to the top navigation */
-
-  .topnav {
-    position: relative;
-    background-color: rgb(126,188,187);
-    overflow: hidden;
-    
-   
-  }
-
+.topnav {
+  font-size: 1.3em;
+  position: relative;
+  background-color: rgb(126,188,187);
+  overflow: hidden;
+}
+  
   
 .topnav a {
     float: left;
@@ -59,16 +57,21 @@ abbr,acronym { border:0;
     text-align: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 20px 16px;
     text-decoration: none;
-    font-size: 17px;
+  
   }
 
 
-.topnav a.icon {
-  float: right;
-  display: block;
- 
+  .topnav a.icon {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 6em;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    /* font-size: 20px; */
 }
 
   .topnav.responsive {position: relative;}
@@ -82,7 +85,7 @@ abbr,acronym { border:0;
 
   /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #ccf6ff;
     color: black;
   }
 
@@ -92,20 +95,24 @@ abbr,acronym { border:0;
     color: white;
   }
   .topnav a.icon {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     right: 0;
     top: 0;
+    height: 6em;
   }
   .mobile-logo-wrapper {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 70%;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 6em;
+}
   .mobile-logo {
-      width: 35%;
-      padding: 10px 0px 10px 0px;
+      width: 30%;
+      height: 70%;
       
   }
 

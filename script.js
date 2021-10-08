@@ -22,6 +22,7 @@ function myFunction() {
     el.classList.add('active');
   }
   window.onload = function() {
+    /*
     //set height of mobile restaruant logo to div containing fa fa bars
     let mobileLogoPic = document.getElementsByClassName("mobile-logo");
     console.log(mobileLogoPic[0])
@@ -49,4 +50,5 @@ function myFunction() {
       // you're in LANDSCAPE mode
       console.log("landscape mode yay you11")
    }
+   */
   }
