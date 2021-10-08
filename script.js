@@ -55,4 +55,9 @@ function toggleMobileMenu() {
       console.log("landscape mode yay you11")
    }
    */
+
+   document.getElementById('footer-close-btn').onclick = function() {
+     console.log("close button clicked yeeehawww!");
+      document.getElementsByClassName('contact-footer')[0].style.display = "none";
+   }
   }
