@@ -195,6 +195,13 @@ abbr,acronym { border:0;
     align-items: center;
   }
 
+  .first-image-overlay p {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin:  1em 2em 1em 2em;
+  }
+
   .first-image-wrapper img {
     width: 100%;
    
