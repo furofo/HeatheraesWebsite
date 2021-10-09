@@ -20,10 +20,7 @@ function toggleMobileMenu() {
       aElementsToRemove[i].classList.remove("active");
     }
     el.classList.add('active');
-    if(document.getElementsByClassName('.icon')) {
-      console.log("muahha hthis worekd");
-      toggleMobileMenu();
-    }
+   
   }
   window.onload = function() {
     /*

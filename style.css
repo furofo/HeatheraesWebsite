@@ -107,14 +107,14 @@ abbr,acronym { border:0;
     position: absolute;
     right: 0;
     top: 0;
-    height: 6em;
+    height: 5em;
   }
   .mobile-logo-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 70%;
-    height: 6em;
+    height: 5em;
 }
   .mobile-logo {
       width: 30%;
@@ -195,6 +195,10 @@ abbr,acronym { border:0;
       align-items: center;
       justify-content: center;
       padding: 1em 1% 1em 1%;
+  }
+
+  .contact-footer {
+    font-size: 1.5em;
   }
   }
 
