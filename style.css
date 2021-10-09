@@ -192,6 +192,9 @@ abbr,acronym { border:0;
   }
 
   .first-image-overlay {
+    display: flex;
+    align-items:  center;
+    justify-content: center;;
     width: 100%;
     height: 100%;
     position: absolute;
