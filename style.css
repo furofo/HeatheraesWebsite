@@ -186,13 +186,16 @@ abbr,acronym { border:0;
     width: 100%;
   }
 
+  .first-image-wrapper img {
+    width: 100%;
+   
+  }
+
   .first-image-overlay {
     position: absolute;
     top: 0px;
     left: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
   }
 
   .first-image-overlay p {
@@ -202,10 +205,18 @@ abbr,acronym { border:0;
     margin:  1em 2em 1em 2em;
   }
 
-  .first-image-wrapper img {
-    width: 100%;
-   
+  .first-image-overlay img {
+    height: 4em;
+    width: 4em;
+    margin: auto;
   }
+
+  .chair-logo-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  
   @media (orientation: landscape) {
     .desktop-top-logo-color-wrapper {
       display: none;
