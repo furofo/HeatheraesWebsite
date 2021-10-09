@@ -222,6 +222,17 @@ abbr,acronym { border:0;
     justify-content: center;
   }
 
+  .black-tint-overlay {
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 20%;
+  }
+
   
   @media (orientation: landscape) {
     .desktop-top-logo-color-wrapper {
