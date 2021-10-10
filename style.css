@@ -217,6 +217,10 @@ abbr,acronym { border:0;
     margin: auto;
   }
 
+  #first-image {
+    height: 70vh;
+  }
+
   .chair-logo-wrapper {
     width: 100%;
     display: flex;
@@ -242,10 +246,10 @@ abbr,acronym { border:0;
    
 }
 
-  .menu-wrapper img{
-    height: 19em;
-    width: 100%;
-  }
+.menu-wrapper img {
+  height: 70vh;
+  width: 100%;
+}
 
   .menu-img-overlay {
     position: absolute;
