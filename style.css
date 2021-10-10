@@ -372,6 +372,16 @@ abbr,acronym { border:0;
 #catering-btn button {
   margin-left: 3em;
 }
+.footer-button {
+  padding: .9em .9em .9em .9em;
+  margin: 1.2em 1em 1em 1em;
+  
+}
+#footer-close-btn {
+  
+  font-size: .8em;
+  
+}
 
   }
 
