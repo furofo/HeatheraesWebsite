@@ -339,6 +339,33 @@ abbr,acronym { border:0;
   width: 4em;
   margin: auto;
 }
+
+#menu-btn {
+  margin-bottom: 0px;
+  
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  
+ 
+}
+
+#menu-btn button {
+  margin-right: 3em;
+}
+
+#catering-btn {
+  margin-top: 0px;
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  /* margin-left: 0.8em; */
+}
+
+#catering-btn button {
+  margin-left: 3em;
+}
+
   }
 
  
