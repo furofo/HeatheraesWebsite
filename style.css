@@ -242,7 +242,7 @@ abbr,acronym { border:0;
  
 
   .menu-wrapper img{
-    height: 17em;
+    height: 19em;
     width: 100%;
   }
 
@@ -258,11 +258,11 @@ abbr,acronym { border:0;
   }
 
   .menu-img-overlay div {
+    flex-wrap: wrap;
     width: 100%;
     display: flex;
     justify-content: center;
-
-  }
+}
 
   .menu-img-overlay button {
     color: white;
@@ -273,23 +273,24 @@ abbr,acronym { border:0;
     transform: skew(-21deg);
   }
   #menu-btn {
+    margin-bottom: 1em;
+    /* flex-wrap: wrap; */
     display: flex;
-    width: 50%;
-    justify-content: flex-end;
-    margin-right: .8em;
-    
+    width: 100%;
+    justify-content: center;
+    /* margin-right: .8em; */
 }
 
 #menu-btn button {
   border: .2em solid white;
 }
 #catering-btn {
+  margin-top: 1em;
   display: flex;
-  width: 50%;
-  justify-content: flex-start;
-  margin-left: 0.8em;
+  width: 100%;
+  justify-content: center;
+  /* margin-left: 0.8em; */
 }
-
 #catering-btn button {
   border: .2em solid white;
 }
