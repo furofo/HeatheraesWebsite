@@ -158,6 +158,7 @@ abbr,acronym { border:0;
   }
 
   .footer-button {
+    width: 7em;
     padding: .7em .7em .7em .7em;
     margin: 1em 1em 1em 1em;
    background-color: rgb(6, 88, 97);
