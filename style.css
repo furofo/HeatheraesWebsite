@@ -56,6 +56,7 @@ abbr,acronym { border:0;
   left: 0px;
   background-color: rgb(126,188,187);
   overflow: hidden;
+  z-index: 20;
 }
     
 .topnav a {
