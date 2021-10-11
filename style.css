@@ -308,7 +308,7 @@ abbr,acronym { border:0;
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 
 .blueFont {
@@ -317,9 +317,9 @@ h3 {
 
 .grid-container {
   display: grid;
-  border: 20px solid black;
-  border-left: 10px solid black;
-  border-right: 10px solid black;
+  border: 30px solid black;
+  border-left: 15px solid black;
+  border-right: 15px solid black;
   grid-template-columns: 100%;
   grid-auto-rows: minmax(150px, auto);
  
@@ -343,6 +343,7 @@ h3 {
   color: white;
   font-size: 1.1em;
   border-style: none;
+  width: 6em;
 }
 
 .grid-item {
@@ -471,6 +472,19 @@ h3 {
   font-size: .8em;
   
 }
+
+.grid-container{
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+   "contactHeading contactHeading"
+   "namePhoneNumber namePhoneNumber"
+   "hoursHeading hoursInfo"
+   "addressFirstLine addressSecondLine"
+   "locationHeading locationHeading"
+   "directionButton map"
+   "callButton map";      
+}
+
 
   }
 
