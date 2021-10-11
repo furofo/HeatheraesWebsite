@@ -382,6 +382,7 @@ h3 {
   grid-area: addressFirstLine;
 }
 .grid-item-8 {
+  align-self: start;
   grid-area: addressSecondLine;
 }
 .grid-item-9 {
@@ -533,6 +534,7 @@ h3 {
   font-size: 1.3em;
   grid-area: addressSecondLine;
   justify-self: start;
+  align-self: center;
   margin-left: .2em;
 }
   }
@@ -670,7 +672,7 @@ h3 {
 @media screen and (min-width: 1200px) { 
     
   .grid-item {
-    font-size: 2.2em;
+    font-size: 2.1em;
   }
     }
 
