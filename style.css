@@ -306,6 +306,72 @@ abbr,acronym { border:0;
 #catering-btn button {
   border: .2em solid white;
 }
+
+.grid-container {
+  display: grid;
+  border: 20px solid white;
+  grid-template-columns: 100%;
+  grid-auto-rows: minmax(150px, auto);
+  background-color: blue;
+  grid-template-areas: 
+  "contactHeading"
+  "namePhoneNumber"
+  "callButton"
+  "hoursHeading"
+  "hoursInfo"
+  "locationHeading"
+  "addressFirstLine"
+  "addressSecondLine"
+  "map"
+  "directionButton"
+  ;
+}
+
+.grid-item {
+  background-color: red;
+  border: 1px solid white;
+  color: white;
+  font-size: 5em;
+  justify-self: center;
+  text-align: center;
+}
+
+.grid-item-1 {
+ 
+  grid-area: contactHeading;
+  color: white;
+  font-size: 5em;
+}
+
+.grid-item-2 {
+  grid-area: namePhoneNumber;
+  
+}
+.grid-item-3 {
+  grid-area: callButton;
+}
+
+.grid-item-4 {
+  grid-area: hoursHeading;
+}
+.grid-item-5 {
+  grid-area: hoursInfo;
+}
+.grid-item-6 {
+  grid-area: locationHeading;
+}
+.grid-item-7 {
+  grid-area: addressFirstLine;
+}
+.grid-item-8 {
+  grid-area: addressSecondLine;
+}
+.grid-item-9 {
+  grid-area: map;
+}
+.grid-item-10 {
+ grid-area: directionButton;
+}
   
   @media (orientation: landscape) {
     .desktop-top-logo-color-wrapper {
@@ -464,6 +530,18 @@ abbr,acronym { border:0;
     font-size: 1.5em;
     width: 7em;
     
+}
+
+.grid-container{
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+   "contactHeading contactHeading"
+   "namePhoneNumber namePhoneNumber"
+   "hoursHeading hoursInfo"
+   "addressFirstLine addressSecondLine"
+   "locationHeading locationHeading"
+   "directionButton map"
+   "callButton map";      
 }
 
  

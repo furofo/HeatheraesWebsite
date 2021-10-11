@@ -11,6 +11,7 @@ function toggleMobileMenu() {
       x.className += " responsive";
       console.log(x);
     } else {
+      inMobileMenu = false;
       x.className = "topnav";
     }
   }
