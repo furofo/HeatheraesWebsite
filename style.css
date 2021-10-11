@@ -350,7 +350,7 @@ h3 {
   background-color: red;
   border: 1px solid white;
   color: black;
-  font-size: 2em;
+  font-size: 1.7em;
   justify-self: center;
   align-self: center;
   text-align: center;
@@ -474,7 +474,8 @@ h3 {
 }
 
 .grid-container{
-  grid-template-columns: 50% 50%;
+  justify-content: center;
+  grid-template-columns: 40% 40%;
   grid-template-areas: 
    "contactHeading contactHeading"
    "namePhoneNumber namePhoneNumber"
