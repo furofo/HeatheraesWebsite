@@ -347,7 +347,6 @@ h3 {
 }
 
 .grid-item {
-  background-color: red;
   border: 1px solid white;
   color: black;
   font-size: 1.7em;
@@ -390,8 +389,8 @@ h3 {
 }
 
 .grid-item-9 iframe {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
 }
 .grid-item-10 {
  grid-area: directionButton;
@@ -481,21 +480,65 @@ h3 {
 .grid-container{
   justify-content: center;
   grid-template-columns: 40% 40%;
+  border: 50px solid black;
+  border-left: 25px solid black;
+  border-right: 25px solid black;
   grid-template-areas: 
    "contactHeading contactHeading"
    "namePhoneNumber namePhoneNumber"
    "hoursHeading hoursInfo"
-   "addressFirstLine addressSecondLine"
    "locationHeading locationHeading"
+   "addressFirstLine addressSecondLine"
    "directionButton map"
    "callButton map";      
 }
 
+.grid-item-9 iframe {
+  height: 4.5em;
+  
+  
+}
+.grid-item-5 {
+  margin-top: .5em;
+  align-self: center;
+  font-size: 1.2em;
+  grid-area: hoursInfo;
+}
 
+.grid-container button {
+  padding: .3em;
+  background-color: black;
+  color: white;
+  font-size: 1.1em;
+  border-style: none;
+  width: 6em;
+  margin-bottom: .3em;
+}
+.grid-item-3 {
+  align-self: start;
+  grid-area: callButton;
+  
+  margin-bottom: 2em;
+}
+.grid-item-10 {
+  align-self: end;
+  grid-area: directionButton;
+}
+.grid-item-7 {
+  grid-area: addressFirstLine;
+  justify-self: end;
+  font-size: 1.3em;
+}
+.grid-item-8 {
+  font-size: 1.3em;
+  grid-area: addressSecondLine;
+  justify-self: start;
+  margin-left: .2em;
+}
   }
 
  
-
+ 
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (min-width: 900px) {
@@ -571,20 +614,65 @@ h3 {
 }
 
 .grid-container{
-  grid-template-columns: 50% 50%;
+  justify-content: center;
+  grid-template-columns: 35% 35%;
   grid-template-areas: 
    "contactHeading contactHeading"
    "namePhoneNumber namePhoneNumber"
    "hoursHeading hoursInfo"
-   "addressFirstLine addressSecondLine"
    "locationHeading locationHeading"
+   "addressFirstLine addressSecondLine"
    "directionButton map"
    "callButton map";      
+}
+
+.grid-item {
+  font-size: 1.6em;
+}
+.grid-item-9 iframe {
+  height: 6.5em;
+  
+  
+}
+
+.grid-item-3 {
+  align-self: center;
+  grid-area: callButton;
+  
+  margin-bottom: 0px;
+}
+.grid-item-10 {
+  align-self: center;
+  grid-area: directionButton;
+}
+
+.grid-item-3 button {
+  margin-bottom: 2em;
+}
+.grid-item-7 {
+  justify-self: end;
+  grid-area: addressFirstLine;
+}
+.grid-item-8 {
+  grid-area: addressSecondLine;
+  justify-self: start;
+  margin-left: .2em;
+}
+
+.grid-item-9 iframe {
+  margin-bottom: 1.5em;
 }
 
  
    
 }
+
+@media screen and (min-width: 1200px) { 
+    
+  .grid-item {
+    font-size: 2.2em;
+  }
+    }
 
  
   
