@@ -471,6 +471,22 @@ h3 {
   text-align:  center;
   margin: 0px 1em 0px 1em;
 }
+
+.gallery-button-styling {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+.gallery-button-styling button {
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+  background-color: black;
+  width: 30%;
+}
   
   @media (orientation: landscape) {
     .desktop-top-logo-color-wrapper {
@@ -803,6 +819,22 @@ h3 {
   text-align:  center;
   margin: 0px 1em 0px 1em;
 }
+.gallery-button-styling {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+.gallery-button-styling button {
+  color: white;
+  font-size: 1.6em;
+  padding: 1em;
+  background-color: black;
+  width: 30%;
+}
+
 }
 
 @media screen and (min-width: 1200px) { 
