@@ -427,6 +427,20 @@ h3 {
   color: white;
   font-size: 2.6em;
 }
+
+.about-us-flavor-text {
+  color: rgb(228,81,81);
+  font-size: 2.5em;
+  display:  flex;
+  width: 100%;
+  justify-content:  center;
+  margin: 2em 0px 2em 0px;
+  text-align: center;
+}
+
+.about-us-flavor-text p {
+  margin: 0px .5em 0px 0.5em;
+}
   
   @media (orientation: landscape) {
     .desktop-top-logo-color-wrapper {
@@ -573,6 +587,10 @@ h3 {
   height: 40vh;
 }
 
+.about-us-flavor-text p {
+  width: 70%;
+}
+
   }
 
  
@@ -705,7 +723,13 @@ h3 {
   font-size: 3.2em;
 }
  
-   
+.about-us-flavor-text {
+  font-size: 3em;
+}
+
+.about-us-flavor-text p {
+  width: 50%;
+}
 }
 
 @media screen and (min-width: 1200px) { 
@@ -716,6 +740,15 @@ h3 {
 
   .about-us-header h3 {
     font-size: 4.5em;
+  }
+
+  .about-us-flavor-text {
+    
+    font-size: 4.5em;
+  }
+
+  .about-us-flavor-text p {
+    width: 50%;
   }
     }
 
