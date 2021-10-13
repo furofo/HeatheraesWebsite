@@ -441,6 +441,36 @@ h3 {
 .about-us-flavor-text p {
   margin: 0px .5em 0px 0.5em;
 }
+
+.about-us-body {
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content:  center;
+  width: 100%;
+  margin: 2em 0px 2em 0px;
+  
+}
+
+.chef-img-wrapper {
+  width: 70%;
+  height: 30vh;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+
+.chef-img-wrapper img {
+  width: 100%;
+}
+
+.about-us-body-text {
+  width: 100%;
+  font-size: 1.7em;
+}
+
+.about-us-body-text p {
+  text-align:  center;
+  margin: 0px 1em 0px 1em;
+}
   
   @media (orientation: landscape) {
     .desktop-top-logo-color-wrapper {
