@@ -144,7 +144,8 @@ abbr,acronym { border:0;
   }
 
   .contact-footer {
-    display: flex;
+   /* display: flex;*/
+   display: none;
     justify-content: center;
     align-items: center;
     font-size: 2em;
@@ -486,6 +487,46 @@ h3 {
   padding: 1em;
   background-color: black;
   width: 30%;
+}
+
+.site-footer {
+  background-color: rgb(126, 188, 187);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer a {
+  text-decoration:  none;
+}
+
+.site-footer a:first-of-type {
+  margin-top: 1em;
+}
+
+.site-footer a:last-of-type {
+  margin-bottom: 1em;
+}
+
+.site-footer p {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding: .2em;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: .4em;
+    font-size: 30px;
+    width: 50px;
+    margin-top: .5em;
+    text-align: center;
+    text-decoration: none;
+    
+    border-radius: 50%;
 }
   
   @media (orientation: landscape) {
