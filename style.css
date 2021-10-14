@@ -144,8 +144,8 @@ abbr,acronym { border:0;
   }
 
   .contact-footer {
-   /* display: flex;*/
-   display: none;
+   display: flex;
+ 
     justify-content: center;
     align-items: center;
     font-size: 2em;
