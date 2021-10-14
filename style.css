@@ -245,13 +245,11 @@ abbr,acronym { border:0;
     position: relative;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
    
 }
 
-.menu-wrapper img {
-  height: 70vh;
-  width: 100%;
-}
+
 
   .menu-img-overlay {
     position: absolute;
@@ -742,7 +740,9 @@ h3 {
     height: 32em;
 }
 */
-
+#first-image {
+  width: 100%;
+}
 .first-image-overlay p {
   font-size: 2em;
   
@@ -769,7 +769,7 @@ h3 {
     display: none;
   }
   .menu-wrapper img {
-    height: 35em;
+   
     width: 100%;
 }
 
