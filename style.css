@@ -600,9 +600,9 @@ h3 {
   margin-left: 3em;
 }
 .footer-button {
-  padding: .9em .9em .9em .9em;
+  padding: .7em .9em .7em .9em;
   margin: 1.2em 1em 1em 1em;
-  
+  font-size: .6em;
 }
 #footer-close-btn {
   
@@ -729,7 +729,7 @@ h3 {
 
    
   .topnav a {
-    font-size: 17px;
+    font-size: 1.4em;
     display: block;
     width: 20%;
  
