@@ -653,9 +653,9 @@ h3 {
   margin-bottom: .3em;
 }
 .grid-item-3 {
+  height: 25vh;
   align-self: start;
   grid-area: callButton;
- 
 }
 /*
 .grid-item-10 {
@@ -667,10 +667,10 @@ h3 {
 .grid-item-10 {
   display: flex;
   grid-area: directionButton;
-  
   align-items: flex-end;
-  height: 20vh;
+  height: 25vh;
 }
+
 .grid-item-7 {
   grid-area: addressFirstLine;
   justify-self: end;
