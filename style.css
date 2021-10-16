@@ -225,6 +225,7 @@ abbr,acronym { border:0;
   */
 
   .chair-logo-wrapper {
+    overflow: hidden;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -789,14 +790,14 @@ h3 {
   width: 100%;
 }
 .first-image-overlay p {
-  font-size: 2em;
+  font-size: 2.5em;
   
   margin: 1.5em 2em 1.5em 2em;
 }
 
 .first-image-overlay img {
-  height: 6em;
-  width: 6em;
+  height: 8em;
+  
   margin: auto;
 }
   
@@ -951,7 +952,13 @@ h3 {
 }
 
 @media screen and (min-width: 1200px) { 
+  .topnav a:not(:first-child) {
     
+    width: 17%;
+}
+#phone {
+  width: 17%;
+}
   .grid-item {
     font-size: 2.1em;
   }
