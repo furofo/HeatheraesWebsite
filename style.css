@@ -123,6 +123,7 @@ abbr,acronym { border:0;
     height: 5em;
   }
   .mobile-logo-wrapper {
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +131,7 @@ abbr,acronym { border:0;
     height: 5em;
 }
   .mobile-logo {
-      width: 30%;
+      
       height: 70%;
       
   }
@@ -569,6 +570,9 @@ h3 {
       align-items: center;
       justify-content: center;
       padding: 1em 1% 1em 1%;
+  }
+  .mobile-logo {
+    height: 110%;
   }
 
   .contact-footer {
