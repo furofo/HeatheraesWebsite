@@ -634,6 +634,7 @@ h3 {
   grid-area: map;
   height: 50vh;
   align-items: center;
+  margin-bottom: 3em;
 }
 
 .grid-item-5 {
@@ -656,6 +657,7 @@ h3 {
   height: 25vh;
   align-self: start;
   grid-area: callButton;
+  margin-bottom: 3em;
 }
 /*
 .grid-item-10 {
