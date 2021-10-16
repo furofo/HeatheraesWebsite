@@ -345,6 +345,10 @@ h3 {
   width: 6em;
 }
 
+.grid-container button:hover {
+  background-color: grey;
+}
+
 .grid-item {
   border: 1px solid white;
   color: black;
@@ -713,6 +717,18 @@ h3 {
 .about-us-body-text p {
   text-align:  center;
   margin: 0px 1.5em 0px 1.5em;
+}
+
+.site-footer p:hover {
+  background-color: #ccf6ff;
+  color: black;
+}
+
+.fa-facebook:hover {
+ background: lightblue;
+}
+.gallery-button-styling button:hover {
+  background-color: grey;
 }
 
   }
