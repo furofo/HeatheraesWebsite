@@ -320,7 +320,7 @@ h3 {
   border-left: 15px solid black;
   border-right: 15px solid black;
   grid-template-columns: 100%;
-  grid-auto-rows: minmax(0px, auto);
+  grid-auto-rows: minmax(90px, auto);
  
   grid-template-areas: 
   "contactHeading"
@@ -361,11 +361,15 @@ h3 {
 .grid-item-1 {
  
   grid-area: contactHeading;
+  
 
 }
 
+
+
 .grid-item-2 {
   grid-area: namePhoneNumber;
+ 
   
 }
 .grid-item-3 {
@@ -627,7 +631,8 @@ h3 {
   grid-template-areas: 
    "contactHeading contactHeading"
    "namePhoneNumber namePhoneNumber"
-   "hoursHeading hoursInfo"
+   "hoursHeading hoursHeading"
+   "hoursInfo hoursInfo"
    "locationHeading locationHeading"
    "addressFirstLine addressSecondLine"
    "directionButton map"
@@ -818,7 +823,8 @@ h3 {
   grid-template-areas: 
    "contactHeading contactHeading"
    "namePhoneNumber namePhoneNumber"
-   "hoursHeading hoursInfo"
+   "hoursHeading hoursHeading"
+   "hoursInfo hoursInfo"
    "locationHeading locationHeading"
    "addressFirstLine addressSecondLine"
    "directionButton map"
