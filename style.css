@@ -751,6 +751,9 @@ h3 {
   .contact-footer {
     display: none;
   }
+  #topnav-space-taker {
+    display: none;
+  }
   .topnav {
     display: flex;
     width: 100%;
