@@ -546,6 +546,7 @@ h3 {
     #phone {
       display: block;
       float: left;
+      width: 14%;
     }
     .topnav a:not(:first-child) {
       display: block;
