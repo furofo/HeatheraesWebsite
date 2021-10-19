@@ -405,6 +405,7 @@ h3 {
 }
 .grid-item-10 {
  grid-area: directionButton;
+ margin: 2em 0px 2em 0px;
  
 }
 
@@ -685,6 +686,7 @@ h3 {
   display: flex;
   grid-area: directionButton;
   align-items: flex-end;
+  margin: 0px;
   height: 25vh;
 }
 
