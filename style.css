@@ -648,7 +648,7 @@ h3 {
 .grid-item-9 {
   display: flex;
   grid-area: map;
-  height: 50vh;
+  height: 50%;
   align-items: center;
   margin-bottom: 3em;
 }
@@ -846,7 +846,7 @@ h3 {
   font-size: 1.6em;
 }
 .grid-item-9 iframe {
-  height: 40vh;
+  height: 100%;
   
   
 }
