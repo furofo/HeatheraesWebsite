@@ -852,7 +852,7 @@ h3 {
 }
 
 .grid-item-3 {
-  
+  background-color: blue;
   display: flex;
   height: 4em;
   align-items: flex-start;
@@ -867,6 +867,7 @@ h3 {
   align-self: center;
   grid-area: directionButton;
   height: 4em;
+  background-color: lightblue;
 }
 
 
