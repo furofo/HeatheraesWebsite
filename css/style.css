@@ -1,0 +1,221 @@
+h3 {
+  font-size: 1.4em;
+}
+
+.blueFont {
+  color: blue;
+}
+
+.grid-container {
+  display: grid;
+  border: 30px solid black;
+  border-left: 15px solid black;
+  border-right: 15px solid black;
+  grid-template-columns: 100%;
+  grid-auto-rows: minmax(90px, auto);
+ 
+  grid-template-areas: 
+  "contactHeading"
+  "namePhoneNumber"
+  "callButton"
+  "hoursHeading"
+  "hoursInfo"
+  "locationHeading"
+  "addressFirstLine"
+  "addressSecondLine"
+  "map"
+  "directionButton"
+  ;
+}
+
+.grid-container button {
+  padding: .3em;
+  background-color:  black;
+  color: white;
+  font-size: 1.1em;
+  border-style: none;
+  width: 6em;
+}
+
+.grid-container button:hover {
+  background-color: grey;
+}
+
+.grid-item {
+  border: 1px solid white;
+  color: black;
+  font-size: 1.7em;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+
+.grid-item-1 {
+  margin-top: 3em;
+  grid-area: contactHeading;
+}
+.grid-item-2 {
+  grid-area: namePhoneNumber;
+}
+.grid-item-3 {
+  grid-area: callButton;
+}
+
+.grid-item-4 {
+  grid-area: hoursHeading;
+}
+.grid-item-5 {
+  grid-area: hoursInfo;
+}
+.grid-item-6 {
+  grid-area: locationHeading;
+}
+.grid-item-7 {
+  grid-area: addressFirstLine;
+}
+.grid-item-8 {
+  align-self: start;
+  grid-area: addressSecondLine;
+}
+.grid-item-9 {
+  grid-area: map;
+  height: 30vh;
+}
+
+.grid-item-9 iframe {
+  width: 100%;
+  height: 100%;
+}
+.grid-item-10 {
+ grid-area: directionButton;
+ margin: 2em 0px 2em 0px;
+ 
+}
+.about-us-header {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-img-wrapper {
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
+}
+
+.about-us-img-wrapper img {
+  width: 100%;
+}
+
+.about-us-header h3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  font-size: 2.6em;
+}
+
+.about-us-flavor-text {
+  color: rgb(228,81,81);
+  font-size: 2.5em;
+  display:  flex;
+  width: 100%;
+  justify-content:  center;
+  margin: 2em 0px 2em 0px;
+  text-align: center;
+}
+
+.about-us-flavor-text p {
+  margin: 0px .5em 0px 0.5em;
+}
+
+.about-us-body {
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content:  center;
+  width: 100%;
+  margin: 2em 0px 2em 0px;
+  
+}
+
+.chef-img-wrapper {
+  width: 70%;
+  height: 30vh;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+
+.chef-img-wrapper img {
+  width: 100%;
+}
+
+.about-us-body-text {
+  width: 100%;
+  font-size: 1.7em;
+}
+
+.about-us-body-text p {
+  text-align:  center;
+  margin: 0px 1em 0px 1em;
+}
+
+.gallery-button-styling {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+.gallery-button-styling button {
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+  background-color: black;
+  width: 30%;
+}
+
+.site-footer {
+  background-color: rgb(126, 188, 187);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer a {
+  text-decoration:  none;
+}
+
+.site-footer a:first-of-type {
+  margin-top: 1em;
+}
+
+.site-footer a:last-of-type {
+  margin-bottom: 1em;
+}
+
+.site-footer p {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding: .2em;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: .4em;
+    font-size: 30px;
+    width: 50px;
+    margin-top: .5em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}

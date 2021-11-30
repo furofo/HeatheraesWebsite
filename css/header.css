@@ -1,0 +1,90 @@
+/* mobile styling */
+/* Add a black background color to the top navigation */
+/* Add a black background color to the top navigation */
+#topnav-space-taker {
+    visibility: hidden;
+    position: relative;
+  
+  }
+  .topnav {
+    position: fixed;
+    width: 100%;
+    font-size: 1.1em;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(126,188,187);
+    overflow: hidden;
+    z-index: 20;
+  }     
+  .topnav a {
+      float: left;
+      display: none;
+      text-align: left;
+      color: #f2f2f2;
+      text-align: center;
+      text-decoration: none;
+    }
+    .topnav a.icon {
+      display: flex;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 6em;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+      /* font-size: 20px; */
+  }
+  
+  .topnav a:not(.icon) {
+    padding: 1em 2em 1em 2em;
+    
+  }
+    .topnav.responsive a {
+      z-index: 1;
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+    .first-image-wrapper{
+      z-index: -1;
+    }
+    
+    /* Change the color of links on hover */
+  .topnav a:hover {
+      background-color: #ccf6ff;
+      color: black;
+    }
+  
+    /* Add an active class to highlight the current page */
+  .topnav a.active {
+      background-color: rgb(6, 88, 97);
+      color: white;
+    }
+    .topnav a.icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 5em;
+    }
+    .mobile-logo-wrapper {
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      height: 5em;
+  }
+    .mobile-logo {    
+        height: 70%;   
+    }
+    #phone {
+      display: none;
+    }
+    .desktop-top-logo-color-wrapper {
+      display: none;
+    }
