@@ -12,14 +12,12 @@
       width: 10%;
       height: 1.2em;
   }
-    
     .topnav a.icon {
       display: none;
     }
     .topnav a:not(.icon) {
       padding: 1em 1% 1em 1%;
   }
-
     .mobile-logo-wrapper {
       height: 1.2em;
       display: flex;
@@ -42,29 +40,21 @@
   width: 4em;
   margin: auto;
 }
-
 #menu-btn {
   margin-bottom: 0px;
-  
   display: flex;
   width: 50%;
   justify-content: flex-end;
-  
- 
 }
-
 #menu-btn button {
   margin-right: 3em;
 }
-
 #catering-btn {
   margin-top: 0px;
   display: flex;
   width: 50%;
   justify-content: flex-start;
-  /* margin-left: 0.8em; */
 }
-
 #catering-btn button {
   margin-left: 3em;
 }
@@ -74,11 +64,8 @@
   font-size: .6em;
 }
 #footer-close-btn {
-  
   font-size: .8em;
-  
 }
-
 .grid-container{
   justify-content: center;
   grid-template-columns: 40% 40%;
@@ -109,7 +96,6 @@
   font-size: 1.2em;
   grid-area: hoursInfo;
 }
-
 .grid-container button {
   padding: .3em;
   background-color: black;
@@ -132,7 +118,6 @@
   margin: 0px;
   height: 25vh;
 }
-
 .grid-item-7 {
   grid-area: addressFirstLine;
   justify-self: end;
@@ -145,48 +130,39 @@
   align-self: center;
   margin-left: .2em;
 }
-
 .about-us-img-wrapper {
   height: 40vh;
 }
-
 .about-us-flavor-text p {
   width: 70%;
 }
-
 .chef-img-wrapper {
   width: 70%;
   height: 70vh;
   overflow: hidden;
   margin-bottom: 3em;
 }
-
 .chef-img-wrapper img {
   width: 100%;
 }
-
 .about-us-body-text {
   width: 100%;
   font-size: 1.9em;
 }
-
 .about-us-body-text p {
   text-align:  center;
   margin: 0px 1.5em 0px 1.5em;
 }
-
 .site-footer p:hover {
   background-color: #ccf6ff;
   color: black;
 }
-
 .fa-facebook:hover {
  background: lightblue;
 }
 .gallery-button-styling button:hover {
   background-color: grey;
 }
-
   }
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (min-width: 900px) {
@@ -215,20 +191,16 @@
     font-size: 1.4em;
     display: block;
     width: 20%;
- 
   }
 #first-image {
   width: 100%;
 }
 .first-image-overlay p {
   font-size: 2.5em;
-  
   margin: 1.5em 2em 1.5em 2em;
 }
-
 .first-image-overlay img {
-  height: 8em;
-  
+  height: 8em; 
   margin: auto;
 }
   .desktop-top-logo-color-wrapper {
@@ -264,7 +236,6 @@
    "directionButton map"
    "callButton map";      
 }
-
 .grid-item {
   font-size: 1.6em;
 }
@@ -300,7 +271,6 @@
 .about-us-header h3 {
   font-size: 3.2em;
 }
- 
 .about-us-flavor-text {
   font-size: 3em;
 }
@@ -313,17 +283,14 @@
   overflow: hidden;
   margin-bottom: 2em;
 }
-
 .chef-img-wrapper img {
   width: 100%;
   margin-left: 2em;
 }
-
 .about-us-body-text {
   width: 40%;
   font-size: 2.8em;
 }
-
 .about-us-body-text p {
   text-align:  center;
   margin: 0px 1em 0px 1em;
@@ -335,7 +302,6 @@
   margin-bottom: 5em;
   margin-top: 5em;
 }
-
 .gallery-button-styling button {
   color: white;
   font-size: 1.6em;
@@ -343,7 +309,6 @@
   background-color: black;
   width: 30%;
 }
-
 .site-footer {
   padding: 1.3em 0px 1.3em 0px;
   background-color: rgb(126, 188, 187);
@@ -352,48 +317,32 @@
   align-items: center;
   justify-content: space-around;
 }
- 
 .site-footer p {
   font-size: 1.5em;
 }
 .site-footer a:first-of-type {
   margin-top: 0px;
 }
-
 .site-footer a:last-of-type {
   margin-bottom: 0px;
 }
-
 .fa-facebook {
   margin-top: 0px;
 }
-
 }
 @media screen and (min-width: 1200px) { 
-  .topnav a:not(:first-child) {
-    
+  .topnav a:not(:first-child),  #phone {
     width: 17%;
-}
-#phone {
-  width: 17%;
 }
   .grid-item {
     font-size: 2.1em;
   }
-
-  .about-us-header h3 {
+  .about-us-header h3, .about-us-flavor-text {
     font-size: 4.5em;
   }
-
-  .about-us-flavor-text {
-    
-    font-size: 4.5em;
-  }
-
   .about-us-flavor-text p {
     width: 50%;
   }
-
   .site-footer p {
     font-size: 2em;
   }

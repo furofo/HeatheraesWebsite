@@ -1,37 +1,38 @@
-.contact-footer {
+.site-footer {
+    background-color: rgb(126, 188, 187);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   
-     justify-content: center;
-     align-items: center;
-     font-size: 2em;
-     position: fixed;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     background-color: rgb(126,188,187);
-     color: white;
-     text-align: center;
-   }
- 
-   .footer-button {
-     width: 7em;
-     padding: .7em .7em .7em .7em;
-     margin: 1em 1em 1em 1em;
-    background-color: rgb(6, 88, 97);
+  .site-footer a {
+    text-decoration:  none;
+  }
+  
+  .site-footer a:first-of-type {
+    margin-top: 1em;
+  }
+  
+  .site-footer a:last-of-type {
+    margin-bottom: 1em;
+  }
+  
+  .site-footer p {
     color: white;
-    text-decoration: none;
-    font-size: .50em;
-    border: none;
-   }
- 
-   #footer-close-btn {
-     position: absolute;
-     top:10px;
-     right: 20px;
-     background-color: rgb(126,188,187);
-     color: white;
-     text-decoration: none;
-     border: none;
-     font-size: .55em;
-     
-   }
+    font-size: 2em;
+    text-align: center;
+    padding: .2em;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: .4em;
+      font-size: 30px;
+      width: 50px;
+      margin-top: .5em;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+  }
