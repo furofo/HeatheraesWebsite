@@ -216,6 +216,9 @@
   .mobile-logo-wrapper {
     display: none;
   }
+  .menu-wrapper {
+    height: 40em;
+  }
   .menu-wrapper img { 
     width: 100%;
 }

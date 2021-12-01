@@ -4,6 +4,17 @@ h3 {
 .blueFont {
   color: blue;
 }
+#first-image{
+  vertical-align: middle;
+}
+.menu-wrapper img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.menu-wrapper picture {
+  width: 100%;
+}
 .grid-container {
   display: grid;
   border: 30px solid black;
@@ -175,4 +186,8 @@ h3 {
   padding: 1em;
   background-color: black;
   width: 30%;
+}
+
+.menu-wrapper img {
+  width: 100%;
 }
