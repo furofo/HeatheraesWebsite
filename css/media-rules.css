@@ -246,13 +246,14 @@
   height: 100%;
 }
 .grid-item-3 {
-  background-color: blue;
+  /* background-color: blue; */
   display: flex;
   height: 4em;
   align-items: flex-start;
   grid-area: callButton;
   margin-bottom: 3em;
 }
+
 .grid-item-9 {
   height: 8em;
 }
@@ -260,7 +261,7 @@
   align-self: center;
   grid-area: directionButton;
   height: 4em;
-  background-color: lightblue;
+ 
 }
 .grid-item-7 {
   justify-self: end;

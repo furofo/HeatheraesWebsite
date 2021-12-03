@@ -19,10 +19,11 @@
   }
   
   .site-footer p {
-    color: white;
+    color: #121211;
     font-size: 2em;
     text-align: center;
     padding: .2em;
+    border-bottom: 0.5px solid rgb(6, 88, 97);
   }
   
   .fa-facebook {

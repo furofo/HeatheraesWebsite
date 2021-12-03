@@ -1,3 +1,15 @@
+body {
+  font-family: 'Oleo Script', cursive;
+ 
+}
+p {
+  font-family: 'Monda', sans-serif;
+  color: #081929;
+}
+
+.active {
+  color: white;
+}
 h3 {
   font-size: 1.4em;
 }
