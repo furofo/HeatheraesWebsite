@@ -17,6 +17,9 @@
     }
     .topnav a:not(.icon) {
       padding: 1em 1% 1em 1%;
+      max-height: initial;
+      min-height: initial;
+      opacity: 1;
   }
     .mobile-logo-wrapper {
       height: 1.2em;
